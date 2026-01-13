@@ -1,1 +1,4 @@
-New-AzRoleDefinition -InputFile .\CustomRoleVMPowerOperator.json
+$scriptRoot = $PSScriptRoot
+$roleDefinition   = "$scriptRoot/RoleDefinitions/CustomRoleVMPowerOperator.json"
+
+New-AzRoleDefinition -InputFile $roleDefinition
