@@ -1,0 +1,14 @@
+{
+  "Name": "VM Power Operator",
+  "Description": "Start, stop, and restart virtual machines with read-only access.",
+  "Actions": [
+    "Microsoft.Compute/virtualMachines/read",
+    "Microsoft.Compute/virtualMachines/start/action",
+    "Microsoft.Compute/virtualMachines/powerOff/action",
+    "Microsoft.Compute/virtualMachines/restart/action"
+  ],
+  "NotActions": [],
+  "AssignableScopes": [
+    "/subscriptions/812e1a67-a9d5-44a5-b87e-25254ca9c696"
+  ]
+}
